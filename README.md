@@ -1,3 +1,4 @@
+# Wildlife Habitat Assessment
 # Using GIS to Design Effective Wildlife Corridors for Mountain Lions in Southern California
 
 ## Overview
@@ -72,39 +73,39 @@ Combined the individual layers into a single cost surface using the Weighted Sum
 
 ### Ruggedness Analysis
 
-The ruggedness layer highlights areas with significant elevation changes, providing lower cost areas for mountain lion movement.
+The ruggedness layer highlights areas with significant elevation changes, providing lower cost areas for mountain lion movement due to reduced stress and danger.
 
-![Ruggedness Layer](path/to/ruggedness-layer-image)
+![Ruggedness Layer](Mountain_Lion_Corridors/Ruggedness.jpg)
 
 ### Distance to Roads
 
 Identified that core habitats are situated in less disturbed regions, emphasizing the need for maintaining these areas as refuges.
 
-![Distance to Roads Layer](path/to/distance-to-roads-layer-image)
+![Distance to Roads Layer](Mountain_Lion_Corridors/Distance%20To%20Roads.jpg)
 
 ### Land Cover
 
-Mountain lions prefer forested and shrubland areas with lower movement costs. 
+Mountain lions prefer forested and shrubland areas with lower movement costs.
 
-![Land Cover Layer](path/to/land-cover-layer-image)
+![Land Cover Layer](Mountain_Lion_Corridors/Land%20Cover.jpg)
 
 ### Protected Status
 
-Many optimal paths pass through unprotected areas, presenting opportunities for policy interventions.
+The analysis shows that many optimal paths pass through unprotected areas, presenting opportunities for policy interventions.
 
-![Protected Status Layer](path/to/protected-status-layer-image)
+![Protected Status Layer](Mountain_Lion_Corridors/Protected%20Status.jpg)
 
 ### Weighted Cost Surface
 
 Shows that low and medium cost areas are primarily in mountainous regions, with core habitats in low-cost areas.
 
-![Weighted Cost Surface](path/to/weighted-cost-surface-image)
+![Weighted Cost Surface](Mountain_Lion_Corridors/Weighted%20Cost%20Surface.jpg)
 
 ### Least-Cost Paths
 
-Optimal paths connect core habitats through the lowest cost areas.
+Optimal paths connect the core habitats through the lowest cost areas.
 
-![Least-Cost Paths](path/to/least-cost-paths-image)
+![Least-Cost Paths](Mountain_Lion_Corridors/Least-Cost%20Paths.jpg)
 
 ### Key Findings
 
@@ -137,14 +138,10 @@ Refer to the full list of references included in the article.
 
 ## How to Use This Repository
 
-1. **Clone the Repository**: `git clone https://github.com/yourusername/your-repo-name.git`
-2. **Navigate to the Directory**: `cd your-repo-name`
-3. **Open in ArcGIS Pro**: Load the project file in ArcGIS Pro to view and manipulate the data.
+1. **Clone the Repository**: `git clone https://github.com/yourusername/Wildlife-Habitat-Assessment-.git`
+2. **Navigate to the Directory**: `cd Wildlife-Habitat-Assessment-`
+3. **Open in ArcGIS Pro**: Load the project file in `Mountain_Lion_Corridors` to view and manipulate the data.
 4. **Run the Model**: Follow the steps outlined in the Methods section to run the geoprocessing model and replicate the analysis.
 5. **Explore the Results**: Examine the generated maps and figures to understand the identified wildlife corridors.
 
 Feel free to contribute to the project by opening issues or submitting pull requests. For any questions or support, contact the corresponding author at brahimtaoufyq@gmail.com.
-
----
-
-By following this structure, your README file will provide a clear and comprehensive overview of your project, making it easier for others to understand, replicate, and build upon your work.
