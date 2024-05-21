@@ -138,7 +138,7 @@ Refer to the full list of references included in the article.
 
 ## How to Use This Repository
 
-1. **Clone the Repository**: `git clone https://github.com/yourusername/Wildlife-Habitat-Assessment-.git`
+1. **Clone the Repository**: `git clone https://github.com/yourusername/Wildlife-Habitat-Assessment.git`
 2. **Navigate to the Directory**: `cd Wildlife-Habitat-Assessment-`
 3. **Open in ArcGIS Pro**: Load the project file in `Mountain_Lion_Corridors` to view and manipulate the data.
 4. **Run the Model**: Follow the steps outlined in the Methods section to run the geoprocessing model and replicate the analysis.
